@@ -1,39 +1,35 @@
 .hero-wrapper {
-	height: 100vh !important;
-	position: relative !important;
-	background-color: #000000 !important;
+	height: 100vh;
+	position: relative;
+	background-color: #000000;
 }
 
 .hero-image {
-	width: 100% !important;
-	height: 100% !important;
-	opacity: 0.5 !important;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
 }
 
 .centered-div {
-	position: absolute !important;
-	top: 25% !important;
-	left: 50% !important;
-	transform: translate(-50%, -50%) !important;
-	text-align: center !important;
+	position: absolute;
+	width: 80%;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
 	color: white;
 	letter-spacing: 0.3rem;
 }
 .animation-text {
-	font-size: 4rem !important;
-	display: inline-block !important;
+	font-size: 8rem;
+	display: inline-block;
 }
 .greeting-text {
-	font-size: 3rem !important;
+	font-size: 4rem;
 }
 .greeting-p {
-	font-size: 2.5rem !important;
-	letter-spacing: 0.1rem !important;
-}
-
-h1 {
-	font-size: 4rem !important;
-	-webkit-text-stroke: 2px var(--green-dark);
+	font-size: 3rem;
+	letter-spacing: 0.2rem;
 }
 
 @media (max-width: 992px) {
@@ -42,16 +38,16 @@ h1 {
 	}
 	.centered-div {
 		top: 25%;
-		width: 25rem;
+		width: 65%;
 		letter-spacing: 0.1rem;
 	}
 	.greeting-text {
-		font-size: 1.5rem;
+		font-size: 3rem;
 	}
 	.greeting-p {
-		font-size: 1.5rem;
+		font-size: 2.5rem;
 	}
 	.animation-text {
-		font-size: 2.5rem;
+		font-size: 4.5rem;
 	}
 }

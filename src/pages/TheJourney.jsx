@@ -27,6 +27,7 @@ const TheJourney = () => {
 
 			<div className='third-container'>
 				<TwoTitleEmbedded
+					firstTitleClass=''
 					secondTitleClass='title italic'
 					spanLineClass='heading-separator-line-left'
 					firstTitle=''

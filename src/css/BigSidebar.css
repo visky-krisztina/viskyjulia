@@ -20,13 +20,12 @@
 	}
 
 	.photo-circle {
-		width: 14rem;
-		height: 15rem;
+		width: 25rem;
+		height: 27rem;
 		overflow: hidden;
 		border-radius: 50%;
 		border: 10px solid #e0dede;
-		margin-left: -1rem;
-		margin-bottom: 1rem;
+		margin-bottom: 5rem;
 	}
 	.bigSidebar-image {
 		width: 100%;
@@ -36,20 +35,16 @@
 		background-size: contain;
 		background-repeat: no-repeat;
 	}
-	.nav-links {
-		margin-top: 1rem;
-		margin-left: -1rem;
-	}
+
 	.nav-link {
 		color: white;
-
-		display: flex !important;
-		align-items: center !important;
-		justify-content: center !important;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		font-weight: 500;
-		font-size: 1.8rem;
+		font-size: 2.8rem;
 		text-decoration: none;
-		padding: 1rem 0;
+		padding: 0.8rem 0;
 		text-transform: capitalize;
 	}
 	.nav-link:hover {

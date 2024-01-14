@@ -22,7 +22,7 @@ const Landing = () => {
 			<div className='page'>
 				<BigSidebar />
 
-				<div className='dashboard-page'>
+				<div>
 					<Hero />
 					<About />
 					<TheJourney />
