@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-size: 16px;
+}
+
 :root {
 	/* colors */
 	--primary-50: #f2d7d7;
