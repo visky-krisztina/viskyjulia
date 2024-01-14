@@ -1,0 +1,57 @@
+.hero-wrapper {
+	height: 100vh !important;
+	position: relative !important;
+	background-color: #000000 !important;
+}
+
+.hero-image {
+	width: 100% !important;
+	height: 100% !important;
+	opacity: 0.5 !important;
+}
+
+.centered-div {
+	position: absolute !important;
+	top: 25% !important;
+	left: 50% !important;
+	transform: translate(-50%, -50%) !important;
+	text-align: center !important;
+	color: white;
+	letter-spacing: 0.3rem;
+}
+.animation-text {
+	font-size: 4rem !important;
+	display: inline-block !important;
+}
+.greeting-text {
+	font-size: 3rem !important;
+}
+.greeting-p {
+	font-size: 2.5rem !important;
+	letter-spacing: 0.1rem !important;
+}
+
+h1 {
+	font-size: 4rem !important;
+	-webkit-text-stroke: 2px var(--green-dark);
+}
+
+@media (max-width: 992px) {
+	.hero-wrapper {
+		width: 100vw;
+	}
+	.centered-div {
+		top: 25%;
+		width: 25rem;
+		letter-spacing: 0.1rem;
+	}
+	.greeting-text {
+		font-size: 1.5rem;
+	}
+	.greeting-p {
+		font-size: 1.5rem;
+	}
+	.animation-text {
+		font-size: 2.5rem;
+	}
+}
