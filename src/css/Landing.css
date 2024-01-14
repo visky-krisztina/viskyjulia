@@ -75,7 +75,10 @@
 	row-gap: 2.5rem;
 	font-size: 2.5rem !important;
 }
-
+.right img {
+	width: 35rem;
+	margin-top: -2rem !important;
+}
 .left img {
 	width: 25rem;
 	margin-top: -2rem !important;
